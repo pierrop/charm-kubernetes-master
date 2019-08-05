@@ -36,6 +36,9 @@ provides:
   cni:
     interface: kubernetes-cni
     scope: container
+  aws-iam:
+    interface: aws-iam
+    scope: container
 requires:
   etcd:
     interface: etcd

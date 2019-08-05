@@ -26,6 +26,7 @@ includes:
   - 'interface:vsphere-integration'
   - 'interface:azure-integration'
   - 'interface:keystone-credentials'
+  - 'interface:aws-iam'
 options:
   basic:
     packages:
